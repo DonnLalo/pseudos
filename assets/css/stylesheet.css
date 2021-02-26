@@ -1,0 +1,78 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* Section 1*/
+
+.s1 div :first-child {
+    color: red;
+}
+
+.s1 div :last-child {
+    color: blue;
+}
+
+
+/* Section 2 */
+
+.s2 div :nth-child(2) {
+    color: red;
+}
+
+.s2 div :nth-last-child(3) {
+    color: blue;
+}
+
+
+/* Section 3 */
+
+.s3 div p:nth-of-type(2) {
+    color: red;
+}
+
+.s3 div p:nth-last-of-type(3) {
+    color: blue;
+}
+
+
+/* Section 4 */
+
+.s4 div :only-child {
+    color: red;
+}
+
+
+/* Section 5 */
+
+.s5 div span:only-of-type {
+    color: blue;
+}
+
+
+/* Links */
+
+#links li a:visited {
+    color: orange;
+}
+
+#links li a {
+    color: palegreen;
+}
+
+#links li a:hover {
+    color: saddlebrown;
+}
+
+.cuadro {
+    width: 500px;
+    height: 200px;
+    background-color: teal;
+}
+
+.cuadro ::before {
+    content: '';
+    height: 150px;
+    width: 500px;
+    background-color: tomato;
+}
